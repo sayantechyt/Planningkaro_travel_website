@@ -1,0 +1,137 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PlanningKaro</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="logo">PlanningKaro</div>
+    <div class="nav-items">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-container">
+      <div class="column-left">
+        <h1>Plan and Book Your Dream Tour</h1>
+        <p>
+          Plan and book your dream tour with personalized experiences, seamless booking, and expert guidance for the
+          perfect getaway.
+        </p>
+        <button type="button" class="btn btn-home" onclick="location.href='viewmore.html'">View More</button>
+      </div>
+      <div class="column-right">
+        <img src="./back.webp" alt="illustration" class="hero-image" />
+      </div>
+    </div>
+  </section>
+
+
+  <section class="offers">
+    <h2>Special Offers</h2>
+    <div class="offer-container">
+      <div class="offer-item" id="offer-darjeeling">
+        <a href="darjeeling.html">
+          <img src="viewmore_img/darjeeling.jpg" alt="Place 1" class="offer-image">
+        </a>
+        <div class="offer-details">
+          <h3>Explore the Mountain of Kanchenjunga</h3>
+          <p>Book now and get 20% off on your Darjeeling tour package. Experience the serene Mountains and vibrant
+            culture.</p>
+        </div>
+      </div>
+      <div class="offer-item" id="offer-sikkim">
+        <a href="sikkim.html">
+          <img src="viewmore_img/Sikkim.webp" alt="Place 2" class="offer-image">
+        </a>
+        <div class="offer-details">
+          <h3>Discover the Beauty of Sikkim</h3>
+          <p>Enjoy a 15% discount on our Sikkim tour. Experience the stunning landscapes, vibrant culture, and serene
+            environment.</p>
+        </div>
+      </div>
+      <div class="offer-item" id="offer-goa">
+        <a href="goa.html">
+          <img src="viewmore_img/goa.jpg" alt="Place 3" class="offer-image">
+        </a>
+        <div class="offer-details">
+          <h3>Experience the Vibrance of Goa</h3>
+          <p>Book your Goa tour and get a special 25% discount. Explore the beaches, nightlife, and Portuguese heritage.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="darjeeling-details" class="details-section" style="display: none;">
+    <h2>Darjeeling</h2>
+    <p>Darjeeling is known for its stunning mountain views, tea gardens, and vibrant culture. Key attractions include:
+    </p>
+    <ul>
+      <li>Darjeeling Himalayan Railway</li>
+      <li>Tea Plantations</li>
+      <li>Tiger Hill</li>
+      <li>Peace Pagoda</li>
+      <li>Himalayan Mountaineering Institute</li>
+    </ul>
+    <button onclick="hideDetails()">Back</button>
+  </section>
+
+  <section id="sikkim-details" class="details-section" style="display: none;">
+    <h2>Sikkim</h2>
+    <p>Sikkim offers stunning landscapes, vibrant culture, and a serene environment. Key attractions include:</p>
+    <ul>
+      <li>Tsomgo Lake</li>
+      <li>Yumthang Valley</li>
+      <li>Rumtek Monastery</li>
+      <li>Nathula Pass</li>
+      <li>Gangtok</li>
+    </ul>
+    <button onclick="hideDetails()">Back</button>
+  </section>
+
+  <section id="goa-details" class="details-section" style="display: none;">
+    <h2>Goa</h2>
+    <p>Goa is famous for its beaches, nightlife, and Portuguese heritage. Key attractions include:</p>
+    <ul>
+      <li>Baga Beach</li>
+      <li>Anjuna Beach</li>
+      <li>Se Cathedral</li>
+      <li>Dudhsagar Falls</li>
+      <li>Fort Aguada</li>
+    </ul>
+    <button onclick="hideDetails()">Back</button>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <h3>PlanningKaro</h3>
+        <p>Your trusted partner in travel planning.</p>
+      </div>
+      <div class="footer-right">
+        <h3>Contact Information</h3>
+        <ul>
+          <li>Email: deysayan150@gmail.com</li>
+          <li>Phone: +917407089287</li>
+          <li>Address: Ramsagar, Bankura, WB, 722147</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2024 PlanningKaro. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+
+</html>
